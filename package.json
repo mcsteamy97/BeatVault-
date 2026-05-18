@@ -1,6 +1,7 @@
 {
   "name": "beatvault",
   "version": "1.0.0",
+  "type": "module",
   "description": "The marketplace connecting content creators with independent producers",
   "scripts": {
     "dev": "next dev",
