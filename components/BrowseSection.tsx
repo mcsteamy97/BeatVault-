@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import { Search, SlidersHorizontal } from "lucide-react";
-import { BEATS, GENRES, MOODS, TIERS, TIER_LABELS, TIER_COLORS } from "../data/beats";
-import type { LicenseTier } from "../data/beats";
-import BeatCard from "./BeatCard";
+import { BEATS, GENRES, MOODS, TIERS, TIER_LABELS, TIER_COLORS } from "@/data/beats";
+import type { LicenseTier } from "@/data/beats";
+import BeatCard from "@/components/BeatCard";
 
 export default function BrowseSection() {
   const [query, setQuery] = useState("");

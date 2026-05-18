@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import { Play, Pause } from "lucide-react";
-import Waveform from "./Waveform";
-import { BEATS } from "../data/beats";
+import Waveform from "@/components/Waveform";
+import { BEATS } from "@/data/beats";
 
 export default function Hero() {
   const [playingId, setPlayingId] = useState<string | null>(null);

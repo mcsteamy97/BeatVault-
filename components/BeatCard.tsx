@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import { Play, Pause, ShoppingCart } from "lucide-react";
-import type { Beat } from "../data/beats";
-import { TIER_LABELS, TIER_COLORS } from "../data/beats";
-import Waveform from "./Waveform";
+import type { Beat } from "@/data/beats";
+import { TIER_LABELS, TIER_COLORS } from "@/data/beats";
+import Waveform from "@/components/Waveform";
 
 interface BeatCardProps {
   beat: Beat;
